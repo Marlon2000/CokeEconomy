@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Coca-Cola Company Website">
+	<meta name="author" content="Marlon Weiss">
+	<!-- Scripts used -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./style/style.css"> 
+	<title>&copy; Coca-Cola Company</title>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbarColor">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="index.html"><img src="./img/logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Start</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#overview">Marken</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="story.html">Geschichte</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="future.html">Zukunft</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">Über uns</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Image Carousel -->
+<div class="carousel slide" data-ride="carousel" id="slideBox">
+	<ul class="carousel-indicators">
+		<li data-target="#slideBox" data-slide-to="0" class="active"></li>
+		<li data-target="#slideBox" data-slide-to="1"></li>
+		<li data-target="#slideBox" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="./img/background.jpg">
+			<div class="carousel-caption">
+				<h1 class="display-2">Company</h1>
+				<h3>Mach dir Freude auf</h3>
+				<a href="future.html"><button type="button" class="btn btn-outline-light btn-lg">Zukunft</button></a>
+				<a href="story.html"><button type="button" class="btn btn-primary btn-lg">Geschichte</button></a>
+			</div>
+		</div>
+		<div class="carousel-item">
+				<img src="./img/background2.jpg">
+		</div>
+		<div class="carousel-item">
+				<img src="./img/background3.jpg">
+		</div>
+	</div>
+</div>
+
+<!-- Info Section -->
+<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-12 narrow text-center">
+			<h2>Wirtschaftsgeschichte von Coca Cola</h2>
+			<p class="lead">Mit dieser Arbeit wollten wir die Entwicklung 
+			des führenden Getränkeherstellers aufzeigen. 
+			Um einen übersichtlichen Verlauf des Aufschwungs aufzuzeigen,
+			wurden verschiedene Darstellungsmöglichkeiten realisiert.</p>
+			<a class="btn btn-outline-secondary btn-md" href="https://de.coca-cola.ch/stories/start-up-zum-weltkonzern" 
+			target="_blank" id="overview">Informationsquelle</a>
+		</div>
+	</div>
+</div>
+
+<!-- Logo Brands Description -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-3">Übersicht der Marken</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Im Verlaufe der Zeit hat Coca Cola 
+			zahlreiche Unternehmungen erworben & erfunden. Auf der Übersicht sind 
+			die uns bekanntesten ersichtlich. Diese Namen sind Teil der 20 Marken
+			des Konzerns, die einen jährlichen Umsatz im Einzelhandel von mehr als 
+			einer Milliarde Dollar vorweisen können.</p>
+		</div>
+	</div>
+</div>
+
+<!-- Logo Brands -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-lemon"></i>
+			<h3>Fanta</h3>
+			<p>1960<br /> Vom Chef-Chemiker von Coca-Cola erfunden, 
+			indem er Molke und Apfelfruchtfleisch mischte.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-mountain"></i>
+				<h3>Valser</h3>
+				<p>2002<br /> Die Hess Group verkaufte die Valser Mineralquellen AG
+				der Coca-Cola HBC.</p>
+		</div>
+		<div class="col-sm-12 col-sm-6 col-md-4">
+			<i class="fas fa-leaf"></i>
+			<h3>Fuse Tea</h3>
+			<p>2018<br /> Erster Eistee aus dem Hause Coca-Cola. 
+			Bereits einen Wert von über einer Milliarde US-Dollar.
+			</p>
+		</div>
+	</div>
+		<hr class="my-3">	
+</div>
+
+<!-- Post 1 -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<img src="./img/cokeFactory.jpg" class="img-fluid">
+		</div>
+		<div class="col-lg-6">
+			<h2>Die Geschichte von Coca-Cola</h2>
+			<p>Zehn wichtige Geschäftsentscheidungen 
+			der letzten 130 Jahre, die Coca-Cola von einem neuartigen
+			Getränk, das in einer kleinen Apotheke in Atlanta serviert wurde, 
+			zu einer der bekanntesten Marken der Welt gemacht hat!</p>
+			<p>Dabei kann man die gesamte wirtschaftliche Entwicklung von Coca-Cola
+			sehen.</p>
+			<p>Alleine in der Schweiz leistet diese Unternehmung ein Beitrag von
+			988 Millionen Franken an die Schweizer Wirtschaft.</p><br />
+			<a href="story.html" class="btn btn-primary">Ganze Geschichte</a>
+		</div>
+	</div>
+</div>
+
+<hr class="my-3">
+<!-- Transition to Future -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+
+<!-- Easter Egg -->
+<button class="easterEgg" data-toggle="collapse" data-target="#juice">Get Juice</button>
+<div id="juice" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<img class="juiceBottle" src="./img/gif/bottle.gif" alt="A turning coke bottle">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="juiceBottle" src="./img/gif/juice.gif" alt="A turning coke bottle">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="juiceBottle" src="./img/gif/cokeAction.gif" alt="A turning coke bottle">
+			</div>	
+		</div>
+	</div>
+</div>
+
+<!-- Post 2 -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<h2>Coca-Colas Zukunftsstrategie</h2>
+			<p>The Coca-Cola Company gab kürzlich Pläne für die Umwandlung 
+			des Unternehmens in eine „TotalBeverage Company“ bekannt.</p>
+			<p>Diese soll durch eine Neuausrichtung der Wachstumsstrategie an dem 
+			sichwandelnden Verbrauchergeschmack und dem geänderten Kaufverhalten erreicht werden.</p><br />
+			<a href="future.html" class="btn btn-outline-secondary">Ganze Geschichte</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="./img/strategy.jpg" class="img-fluid">
+		</div>
+	</div>
+</div>
+
+<!-- About Company -->
+<div class="container-fluid padding" id="about">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Über die Unternehmung</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="./img/about1.jpg">
+				<div class="card-body">
+					<h4 class="card-title">Markenübersicht</h4>
+					<p class="card-text">Konsumenten können hier 
+					individuell das perfekte Getränk für ihre Bedürfnisse finden
+					</p>
+					<a href="https://de.coca-cola.ch/marken" class="btn btn-primary">Ansehen</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="./img/about2.png">
+				<div class="card-body">
+					<h4 class="card-title">Coca-Cola in der Schweiz</h4>
+					<p class="card-text">80% von Coca-Cola in der Schweiz
+					verkauften Getränke werden in der Schweiz hergestellt.</p>
+					<a href="https://de.coca-cola.ch/unternehmen/coca-cola-in-der-schweiz" class="btn btn-primary">Ansehen</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="./img/about3.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Visitor Center</h4>
+						<p class="card-text">In der Produktion kann man die Entwicklung
+						vom Rohling bis zum fertigen Getränk ansehen.</p>
+						<a href="https://de.coca-cola.ch/unternehmen/visitor-center" class="btn btn-primary">Ansehen</a>
+					</div>
+				</div>
+			</div>
+	</div>
+	
+</div>
+
+<hr class="my-3">
+
+<!--- Author Social Media Links -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Contact Me</h2>
+		</div>
+	</div>
+	<div class="col-12 social text-center padding">
+		<a href="https://github.com/Marlon2000"><i class="fab fa-github fa-4x"></i></a>
+		<a href="https://www.youtube.com/channel/UCIBfatk8wIZMt_t6xbkT9iw/playlists"><i class="fab fa-youtube fa-4x"></i></a>
+		<a href="mailto: marlonweiss2000@gmail.com?subject=Anregungen zur PrWr-Webseite"><i class="fas fa-envelope fa-4x"></i></a>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+	<div class="row text-center">
+		<div class="col-12">
+			<hr class="light">
+			<h4>&copy; Coca-Cola Company</h4>
+		</div>
+	</div>
+</div>
+</footer>
+
+</body>
+</html>
