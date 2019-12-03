@@ -3,8 +3,16 @@
 html, body {
   height: 100%;
   width: 100%;
+  
   font-family: 'Poppins', sans-serif;
   color: #000000;
+  
+}
+body {
+
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
 }
 
 .padding {
@@ -26,6 +34,7 @@ html, body {
 
 .navbar {
   padding: 0.4rem;
+ 
 }
 
 #navbarColor {
@@ -255,8 +264,15 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
-
+.picture {
+	width: 100%;
+}
+.infotext {
+	font-size: 100%;
+}
+.signiture{
+	width: 20%;
+}
 
 
 
